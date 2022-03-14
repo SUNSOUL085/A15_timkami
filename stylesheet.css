@@ -154,6 +154,7 @@ a {
   padding-bottom: 4%; 
   padding-right: 5%; 
   padding-left: 5%; 
+  position:relative;
 } 
  
 .message-form{ 
@@ -163,6 +164,7 @@ a {
   margin: 0 auto; 
   background-color: #FFFFFF; 
   border-radius: 20px; 
+  
 } 
  
 .section-title { 
@@ -230,10 +232,10 @@ footer{
   
 }
 .logo-footer{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  max-width: 200px;
+  position: absolute;
+  float: right; 
+  right: 5%;
+  top: 0; 
 }
 .logo-footer img{
   
@@ -246,10 +248,7 @@ footer{
 .title{
   font-size:22px;
 }
-.yellow{
-  color: rgb(245, 221, 7);
-  
-}
+
 .list li{
   list-style: none;
   margin-top: 20px;
